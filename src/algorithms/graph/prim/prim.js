@@ -53,7 +53,8 @@ export default function prim(graph) {
       // Add current min edge to MST.
       minimumSpanningTree.addEdge(currentMinEdge);
 
-      // Add vertex to the set of visited ones.
+      // Add vertex to the set of visited ones. 
+      // KOKO - dummy comment
       visitedVertices[nextMinVertex.getKey()] = nextMinVertex;
 
       // Add all current vertex's edges to the queue.
